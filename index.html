@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zayyan's Website</title>
+
+    <!-- Hubungkan ke style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">🌐 Zayyan</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#features">Fitur</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Selamat Datang di Website Zayyan</h1>
+        <p>Website ini dibuat dengan HTML, CSS, dan JavaScript</p>
+        <a href="#features" class="btn">Jelajahi</a>
+    </section>
+
+    <!-- Fitur -->
+    <section id="features">
+        <h2 class="section-title">Fitur</h2>
+        <div class="features">
+            <div class="feature-card">
+                <i>🔥</i>
+                <h3>Responsive</h3>
+                <p>Website bisa dibuka di HP dan Laptop.</p>
+            </div>
+            <div class="feature-card">
+                <i>⚡</i>
+                <h3>Cepat</h3>
+                <p>Optimasi dengan HTML, CSS, JS murni.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://picsum.photos/400/250" alt="Project 1">
+                <div class="portfolio-overlay">
+                    <h3>Project 1</h3>
+                    <p>Deskripsi singkat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+        <h2 class="section-title">Kontak</h2>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Tombol Back to Top -->
+    <div id="backToTop" class="back-to-top">⬆</div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Zayyan | Dibuat dengan ❤️</p>
+    </footer>
+
+    <!-- Hubungkan ke script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
